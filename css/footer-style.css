@@ -1,0 +1,315 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+
+/* footer */
+.footerContainer {
+  margin-top: 200px;
+}
+/* footerLight */
+.footerLight {
+  background-color: #5A98D0;
+  border-radius: calc(100px + 100 * ((100vw - 320px) / (1280 - 320))) 0 0 0;
+}
+.containerFooterLightClient{
+  width: 60%;
+  margin: 0 auto;
+}
+.footerLightClient {
+  padding: calc(50px + 50 * ((100vw - 320px) / (1280 - 320))) 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* gap: 130px; */
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footerLightClient h2 {
+  font-family: 'Gilroy';
+font-size: calc(15px + 13 * ((100vw -320px) / (1280 -320)));
+ 
+  line-height: calc(26px + 20 * ((100vw - 320px) / (1280 -320)));
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.footerLightClient p {
+  font-family: 'Gilroy';
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  opacity: 0.6;
+  width: 540px;
+}
+
+.tableClients {
+  margin-bottom: 150px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: (25%)[4];
+  grid-template-columns: repeat(4, 25%);
+  -ms-grid-rows: (50%)[2];
+  grid-template-rows: repeat(2, 50%);
+  height: 200px;
+}
+
+.tableClients > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.tableClients > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+
+.tableClients > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+.tableClients > *:nth-child(4) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+}
+
+.tableClients > *:nth-child(5) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+}
+
+.tableClients > *:nth-child(6) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+}
+
+.tableClients > *:nth-child(7) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+}
+
+.tableClients > *:nth-child(8) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+}
+
+.logoClient {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  /* margin:28px; */
+  font-family: 'Gilroy';
+  font-size: calc(14px + 6 * ((100vw - 320px) / (1280 -320)));
+  letter-spacing: 0.02em;
+  color: #F2F2F2;
+  text-align: center;
+}
+
+.moreClient {
+  text-transform: capitalize;
+  background-color: #1F3F68;
+  color: #fff;
+  opacity: 0.2;
+  text-align: center;
+
+}
+
+.border-bot {
+  border-bottom: 1px solid #fff;
+}
+
+.border-left {
+  border-left: 1px solid #fff;
+
+}
+/* footerDark */
+.footerDark {
+  background-color: #316099;
+  width: 95%;
+  height: auto;
+  border-radius: 0 200px 0 0;
+}
+
+
+.containerFooterOffer{
+  width: 60%;
+  margin: 0 auto;
+}
+.footerOffer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap:5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 100px 0;
+}
+
+.footerOffer h2 {
+
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-family: 'Gilroy';
+  letter-spacing: 0.05em;
+  font-size: calc(25px + 11 * ((100vw -320px) / (1280 -320)));
+  
+  color: #fff;
+  width: 100%;
+}
+
+.footerOffer p {
+  font-family: 'Gilroy';
+  letter-spacing: 0.05em;
+  width: 100%;
+  font-size: calc(8px + 8  *((100vw -320px) / (1280 -320)));
+  font-size: 16px;
+  color: #fff;
+  opacity: 0.6;
+}
+
+.footerBtn {
+  width: calc(150px + 70 * ((100vw - 320px) / (1280 -320px)));
+  height: 56px;
+  background: #5A98D0;
+  border-radius: 10px;
+  font-family: 'Gilroy';
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+.footerBtn:hover {
+  background-color: #365f83;
+  color: rgb(219, 212, 212);
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.footerBtn:not(:hover) {
+  -webkit-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
+}
+
+.footerDark hr {
+  opacity: 0.4;
+  border: 1px solid #FFFFFF;
+  width: 81%;
+}
+
+.footer {
+  padding-top: calc(20px + 80 * ((100vw - 320px) / (1280 - 320)));
+ 
+  display: -webkit-box;
+ 
+  display: -ms-flexbox;
+ 
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  width: 60%;
+  font-family: 'Gilroy';
+  color: white;
+  font-size: calc(10px + 6 * ((100vw - 320px) / (1280 - 320)));
+  /* font-size: 16px; */
+}
+
+.footerLogo {
+  cursor: pointer;
+  font-size: calc(12px + 10 * ((100vw - 320px) / (1280 - 320)));
+
+  margin-bottom: calc(10px + 23 * ((100vw - 320px)/ (1280 -320)));
+  line-height: calc(32px + 14 * ((100vw - 320px) / (1280 - 320)));
+  letter-spacing: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;  
+}
+
+.footerLogo img {
+  cursor: pointer;
+  padding-right: 16px;
+  width: calc(23px + 25 * ((100vw - 320px) / (1280 - 320)));
+}
+
+.footer span {
+  font-weight: 600;
+font-size: calc(14px + 6 * ((100vw - 320px) / (1280 - 320)));
+ 
+  font-family: 'Gilroy';
+  line-height: 26px;
+}
+
+.address,
+.tele,
+.email {
+  margin-top: calc(10px + 14 * ((100vw - 320px) / (1280 -320)));
+  font-size: calc(10px + 6 * ((100vw - 320px) / (1280 - 320)));  
+}
+
+.address span,
+.tele span,
+.email span {
+  font-size: calc(10px +6 * ((100vw -320px) / (1280 -320)));
+  padding-right: 13px;
+}
+
+.followUs h2,
+.aboutUs h2 {
+  margin-bottom: 32px;
+  font-family: 'Gilroy';
+  font-size: calc(15px + 5 * ((100vw -320px) / (1280 -320)));
+
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+
+  color: #FFFFFF;
+}
+
+.aboutUsText,
+.followUsText {
+  margin: 16px 0;
+}
+
+.rightsReserv {
+  font-size: calc(10px + 6 * ((100vw - 320px) / (1280 -320)));
+  font-family: 'Gilroy';
+  line-height: 26px;
+  color: white;
+  opacity: 0.4;
+  width: 60%;
+  margin: 0 auto;
+  /* margin-top: calc((100vw - 980px)/(1280 - 980) * (64 - 30) + 30px); */
+  /* margin-left: 12.17%; */
+  padding: 2% 0;
+}
